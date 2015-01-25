@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Christoph
- * Date: 25.01.15
- * Time: 11:47
- */
 
 class YamlAdapter implements Element {
 

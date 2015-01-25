@@ -28,5 +28,5 @@ $db = new mysqli($dbhost,$dbuser,$dbpass,$dbname);
 $sql = "SELECT * FROM factory";
 $res = $db->query($sql);
 while($row = $res->fetch_assoc()) {
-    echo $factory->getElement($row["type"],$row["val"])->toString();
+    echo $factory->getElement($row["type"],$row["val"])->toString()."\n";
 }
